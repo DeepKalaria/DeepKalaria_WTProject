@@ -1,0 +1,77 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    text-align: center;
+    margin: 10px 0;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Testimonial styling */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-left: 5px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.testimonial p {
+    margin: 0;
+    font-style: italic;
+    color: #333;
+}
+
+.testimonial strong {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}

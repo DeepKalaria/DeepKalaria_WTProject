@@ -1,0 +1,40 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #333;
+    font-weight: bold;
+}
+
+.product-card button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.product-card button:hover {
+    background-color: #555;
+}
